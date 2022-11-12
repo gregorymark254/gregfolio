@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (
     <main className="nav">
-      <div className="bg-black text-white">
+      <div className="bg-[#323232] text-[#F55353]">
         <div className="container mx-auto p-6">
           <nav className='flex justify-between items-center  px-4'>
             {/* Top Nav */}

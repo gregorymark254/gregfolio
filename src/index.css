@@ -32,6 +32,11 @@ code {
   monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /*Scroll to top*/
 .scroll-top {
   position: fixed;

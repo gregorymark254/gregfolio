@@ -47,6 +47,19 @@ const Projects = () => {
                         </div>
                         <h3 className="title">Community website</h3>
                     </div>
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://carloz.vercel.app/" >
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">JOHN CARLOZ</h3>
+                                <p className="content-text">A Portfolio website</p>
+                            </div>
+                            </a>
+                        </div>
+                        <h3 className="title">Personal Portfolio</h3>
+                    </div>
                 </section>
             </div>
         </div>

@@ -25,7 +25,7 @@ const About = () => {
                     
                     <div className="space-x-5">
                         <a href="/" className="bg-[#F55353] hover:bg-[#f73333] text-white py-2 px-5 rounded-md">Download CV</a>
-                        <a href="/" className="border-2 border-[#F55353] text-[#F55353] hover:bg-[#F55353] hover:text-white rounded-md py-2 px-5"><b>Hire Me</b></a>
+                        <a href="tel:+254798551778" className="border-2 border-[#F55353] text-[#F55353] hover:bg-[#F55353] hover:text-white rounded-md py-2 px-5"><b>Hire Me</b></a>
                     </div>
                 </div>
                 <div className="w-full p-6">

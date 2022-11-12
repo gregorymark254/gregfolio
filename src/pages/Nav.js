@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <main className="nav">
       <div className="bg-[#323232] text-[#F55353]">
-        <div className="container mx-auto p-6">
+        <div className="container mx-auto p-5">
           <nav className='flex justify-between items-center  px-4'>
             {/* Top Nav */}
             <div className="flex items-center ">
@@ -17,19 +17,19 @@ const Nav = () => {
             </div>
             <ul className='hidden md:flex'>
               <li>
-                <a href="#home" className="px-3 py-2 ">Home</a>
+                <a href="#home" className="hover:text-white px-3 py-2 ">Home</a>
               </li>
               <li>
-                <a href="#about" className=" px-3 py-2 ">About</a>
+                <a href="#about" className="hover:text-white px-3 py-2 ">About</a>
               </li>
               <li>
-                <a href="#projects" className=" px-3 py-2 ">Projects</a>
+                <a href="#projects" className="hover:text-white px-3 py-2 ">Projects</a>
               </li>
               <li>
-                <a href="#skills" className="px-3 py-2">Skills</a>
+                <a href="#skills" className="hover:text-white px-3 py-2">Skills</a>
               </li>
               <li>
-                <a href="#contact" className="px-3 py-2">Contact</a>
+                <a href="#contact" className="hover:text-white px-3 py-2">Contact</a>
               </li>
             </ul>
             

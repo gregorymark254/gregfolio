@@ -51,7 +51,6 @@ code {
 
 /*Hero image paralax*/
 .hero {
-  width: 99vw;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -72,7 +71,6 @@ code {
 }
 
 .skill {
-  width: 99vw;
   height: 50vh;
   display: flex;
   flex-wrap: wrap;

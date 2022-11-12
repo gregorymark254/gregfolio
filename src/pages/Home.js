@@ -46,11 +46,11 @@ const Home = () => {
   window.onload = function() {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
+      var toRotate = elements[i].getAttribute('data-type');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
     }
     // INJECT CSS
     var css = document.createElement("style");
@@ -60,18 +60,15 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen" id="home">
+    <div className="min-h-screen">
       <section className="hero">
         <div className="hero-inner">
-          <h2>Hi, I'm Gregory.</h2>
+          <h1><b>HI, I'M GREGORY MARK.</b></h1>
+          <h1><b><span className="typewrite" data-period="2000" data-type='[ "WEB DEVELOPER.", "WEB DESIGNER." ,"WEB DEVELOPER.", "WEB DESIGNER." ]'>
+           <div className="wrap"></div></span></b>
+          </h1>
           <br />
-          <div className="text-box">
-            <h1>A&nbsp;
-              <span className="typewrite" data-period="1000" data-type='[ "Developer.", "Designer." ]'>
-              <div className="wrap"></div></span>
-            </h1>
-          </div>
-          <a href="/" className="hover:bg-[#E45826] bg-[#F55353] rounded-md px-8 py-4">My Works</a>
+          <a href="#projects" className="hover:bg-[#E45826] bg-[#F55353] rounded-md px-8 py-4">My Works</a>
         </div>
       </section>
     </div>

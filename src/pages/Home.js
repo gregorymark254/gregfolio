@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsArrowDownCircle } from "react-icons/bs";
 
 const Home = () => {
 
@@ -69,6 +70,9 @@ const Home = () => {
           </h1>
           <br />
           <a href="#projects" className="hover:bg-[#E45826] bg-[#F55353] rounded-md px-8 py-4">My Works</a>
+          <div className="flex justify-center items-center mt-10 animate-bounce">
+            <h2><BsArrowDownCircle/></h2>
+          </div>
         </div>
       </section>
     </div>

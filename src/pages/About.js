@@ -29,7 +29,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-full p-6">
-                    <img src="https://cdn-icons-png.flaticon.com/512/168/168882.png" alt="" />
+                    <img src="https://markgregory.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" alt="" />
                 </div>
             </div>
         </div>

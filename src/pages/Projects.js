@@ -9,7 +9,7 @@ const Projects = () => {
     <main className="min-h-screen bg-[#EEEEEE]" id="projects">
         <div className="container mx-auto p-4">
             <h1 className="text-center py-4"><b>Port<span className="bg-[#F55353] text-white py-2 px-3 rounded-md ">Folio</span></b></h1>
-            <span className="text-center py-2">Click to view samples.</span>
+            <p className="text-center text-xl py-2">Click to view samples.</p>
             <div className="container mx-auto p-4">
                 <section className="md:grid grid-cols-3 gap-4 py-6">
                     <div className="contain">

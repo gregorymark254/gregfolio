@@ -1,4 +1,8 @@
 import React from 'react'
+import community from '../community.png'
+import mental from '../mental.png'
+import photography from '../phoography.png'
+import portfolio from '../portfolio.png'
 
 const Projects = () => { 
   return (
@@ -12,7 +16,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="https://royallens.vercel.app" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                            <img className="content-image" alt="" src={photography} />
                             <div className="content-details fadeIn-left">
                                 <h3 className="content-title">Royal Lens</h3>
                                 <p className="content-text">A Photography website</p>
@@ -25,7 +29,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="http://mental-hub.vercel.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                            <img className="content-image" alt="" src={mental} />
                             <div className="content-details fadeIn-top">
                                 <h3 className="content-title">Mental Hub</h3>
                                 <p className="content-text">A non-profit Organization</p>
@@ -38,7 +42,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="http://gr-help.netlify.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                            <img className="content-image" alt="" src={community} />
                             <div className="content-details fadeIn-right">
                                 <h3 className="content-title">Helping Hands</h3>
                                 <p className="content-text">A community website</p>
@@ -51,7 +55,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="https://carloz.vercel.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                            <img className="content-image" alt="" src={portfolio} />
                             <div className="content-details fadeIn-bottom fadeIn-left">
                                 <h3 className="content-title">JOHN CARLOZ</h3>
                                 <p className="content-text">A Portfolio website</p>

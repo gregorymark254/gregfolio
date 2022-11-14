@@ -65,7 +65,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-inner">
           <h1><b>HI, I'M GREGORY MARK.</b></h1>
-          <h1>A Developer<b><span className="typewrite" data-period="2000" data-type='[ "WEB DEVELOPER.", "WEB DESIGNER." ,"WEB DEVELOPER.", "WEB DESIGNER." ]'>
+          <h1>Web Developer<b><span className="typewrite" data-period="2000" data-type='[ "WEB DEVELOPER.", "WEB DESIGNER." ,"WEB DEVELOPER.", "WEB DESIGNER." ]'>
            <div className="wrap"></div></span></b>
           </h1>
           <br />

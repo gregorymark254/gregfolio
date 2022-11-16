@@ -65,7 +65,7 @@ function Delete() {
 		clearInterval(_INTERVAL_VAL);
 
 		// If last sentence then display the first one, else move to the next
-		if(_PART === (_CONTENT.length - 1))
+		if(_PART == (_CONTENT.length - 1))
 			_PART = 0;
 		else
 			_PART++;

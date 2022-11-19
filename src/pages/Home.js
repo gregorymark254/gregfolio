@@ -8,7 +8,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-inner">
           <h1><b>HI, I'M GREGORY MARK.</b></h1>
-          <h1>
+          <h1>A Web Developer
             <div id="container">
               <div id="text"></div>
             </div>

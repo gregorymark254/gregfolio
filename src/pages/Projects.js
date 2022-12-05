@@ -3,6 +3,7 @@ import community from '../community.png'
 import mental from '../mental.png'
 import photography from '../phoography.png'
 import portfolio from '../portfolio.png'
+import hotel from '../Hotel.png'
 
 const Projects = () => { 
   return (
@@ -63,6 +64,19 @@ const Projects = () => {
                             </a>
                         </div>
                         <h3 className="title">Personal Portfolio</h3>
+                    </div>
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://xainhotel.vercel.app/" >
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src={hotel} />
+                            <div className="content-details fadeIn-bottom fadeIn-left">
+                                <h3 className="content-title">Xian Hotel</h3>
+                                <p className="content-text">A website for hotel organisations</p>
+                            </div>
+                            </a>
+                        </div>
+                        <h3 className="title">Hotel Website</h3>
                     </div>
                 </section>
             </div>

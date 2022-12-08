@@ -75,7 +75,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="https://carloz.vercel.app/" >
+                            <a href="https://adminhotel.vercel.app/" >
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/664ckFNK/Dashboard.png" />
                             <div className="content-details fadeIn-bottom fadeIn-right">

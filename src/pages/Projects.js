@@ -1,8 +1,4 @@
 import React from 'react'
-import community from '../community.png'
-import mental from '../mental.png'
-import photography from '../phoography.png'
-import portfolio from '../portfolio.png'
 
 const Projects = () => { 
   return (
@@ -16,7 +12,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="https://royallens.vercel.app" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src={photography} />
+                            <img className="content-image" alt="" src="https://i.postimg.cc/wMMgTJDt/royal.png" />
                             <div className="content-details fadeIn-left">
                                 <h3 className="content-title">Royal Lens</h3>
                                 <p className="content-text">A Photography website</p>
@@ -29,7 +25,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="http://mental-hub.vercel.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src={mental} />
+                            <img className="content-image" alt="" src="https://i.postimg.cc/vBDN4vSd/mental.png" />
                             <div className="content-details fadeIn-top">
                                 <h3 className="content-title">Mental Hub</h3>
                                 <p className="content-text">A non-profit Organization</p>
@@ -42,7 +38,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="http://gr-help.netlify.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src={community} />
+                            <img className="content-image" alt="" src="https://i.postimg.cc/YC3n8P5H/community.png" />
                             <div className="content-details fadeIn-right">
                                 <h3 className="content-title">Helping Hands</h3>
                                 <p className="content-text">A community website</p>
@@ -55,7 +51,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="https://carloz.vercel.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src={portfolio} />
+                            <img className="content-image" alt="" src="https://i.postimg.cc/cJFz1zhm/portfolio.png" />
                             <div className="content-details fadeIn-bottom fadeIn-left">
                                 <h3 className="content-title">JOHN CARLOZ</h3>
                                 <p className="content-text">A Portfolio website</p>
@@ -69,7 +65,7 @@ const Projects = () => {
                             <a href="https://xainhotel.vercel.app/" >
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/7Z9n1kS3/Hotel.png" />
-                            <div className="content-details fadeIn-bottom fadeIn-left">
+                            <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Xian Hotel</h3>
                                 <p className="content-text">A website for hotel organisations</p>
                             </div>
@@ -82,7 +78,7 @@ const Projects = () => {
                             <a href="https://carloz.vercel.app/" >
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/664ckFNK/Dashboard.png" />
-                            <div className="content-details fadeIn-bottom fadeIn-left">
+                            <div className="content-details fadeIn-bottom fadeIn-right">
                                 <h3 className="content-title">XAIN HOTEL</h3>
                                 <p className="content-text">A Dashboard For Admins</p>
                             </div>

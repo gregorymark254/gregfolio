@@ -3,7 +3,6 @@ import community from '../community.png'
 import mental from '../mental.png'
 import photography from '../phoography.png'
 import portfolio from '../portfolio.png'
-import hotel from '../Hotel.png'
 
 const Projects = () => { 
   return (
@@ -69,7 +68,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="https://xainhotel.vercel.app/" >
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src={hotel} />
+                            <img className="content-image" alt="" src="https://i.postimg.cc/7Z9n1kS3/Hotel.png" />
                             <div className="content-details fadeIn-bottom fadeIn-left">
                                 <h3 className="content-title">Xian Hotel</h3>
                                 <p className="content-text">A website for hotel organisations</p>
@@ -77,6 +76,19 @@ const Projects = () => {
                             </a>
                         </div>
                         <h3 className="title">Hotel Website</h3>
+                    </div>
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://carloz.vercel.app/" >
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src="https://i.postimg.cc/664ckFNK/Dashboard.png" />
+                            <div className="content-details fadeIn-bottom fadeIn-left">
+                                <h3 className="content-title">XAIN HOTEL</h3>
+                                <p className="content-text">A Dashboard For Admins</p>
+                            </div>
+                            </a>
+                        </div>
+                        <h3 className="title">Admin Dashboards</h3>
                     </div>
                 </section>
             </div>

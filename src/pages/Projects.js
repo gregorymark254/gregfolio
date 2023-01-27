@@ -10,7 +10,7 @@ const Projects = () => {
                 <section className="md:grid grid-cols-3 gap-4 py-6">
                     <div className="contain">
                         <div className="content">
-                            <a href="https://royallens.vercel.app" >
+                            <a href="https://royallens.vercel.app" target="_blank">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/wMMgTJDt/royal.png" />
                             <div className="content-details fadeIn-left">
@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="http://mental-hub.vercel.app/" >
+                            <a href="http://mental-hub.vercel.app/" target="_blank">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/vBDN4vSd/mental.png" />
                             <div className="content-details fadeIn-top">

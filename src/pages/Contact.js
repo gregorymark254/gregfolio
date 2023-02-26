@@ -26,7 +26,7 @@ const Contact = () => {
                     <span><FaTwitter/></span>
                     <p><b>Twitter</b></p>
                 </a>
-                <a href="/" className="flex justify-center m-4 items-center space-x-2 border rounded-md border-green-600 py-4 text-green-600 hover:bg-green-600 hover:text-white">
+                <a href="https://wa.me/254798551778" className="flex justify-center m-4 items-center space-x-2 border rounded-md border-green-600 py-4 text-green-600 hover:bg-green-600 hover:text-white">
                     <span><IoLogoWhatsapp/></span>
                     <p><b>What's App</b></p>
                 </a>

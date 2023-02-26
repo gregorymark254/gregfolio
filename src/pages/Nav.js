@@ -29,6 +29,12 @@ const Nav = () => {
                 <a href="#skills" className="hover:text-white px-3 py-2">Skills</a>
               </li>
               <li>
+                <a href="#services" className="hover:text-white px-3 py-2">Services</a>
+              </li>
+              <li>
+                <a href="#pricing" className="hover:text-white px-3 py-2">Pricing</a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:text-white px-3 py-2">Contact</a>
               </li>
             </ul>

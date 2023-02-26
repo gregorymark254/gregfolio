@@ -10,7 +10,7 @@ const Projects = () => {
                 <section className="md:grid grid-cols-3 gap-4 py-6">
                     <div className="contain">
                         <div className="content">
-                            <a href="https://royallens.vercel.app" target="_blank">
+                            <a href="https://royallens.vercel.app" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/wMMgTJDt/royal.png" />
                             <div className="content-details fadeIn-left">
@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="http://mental-hub.vercel.app/" target="_blank">
+                            <a href="http://mental-hub.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/vBDN4vSd/mental.png" />
                             <div className="content-details fadeIn-top">
@@ -36,7 +36,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="http://gr-help.netlify.app/" >
+                            <a href="http://gr-help.netlify.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/YC3n8P5H/community.png" />
                             <div className="content-details fadeIn-right">
@@ -49,7 +49,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="https://carloz.vercel.app/" >
+                            <a href="https://carloz.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/cJFz1zhm/portfolio.png" />
                             <div className="content-details fadeIn-bottom fadeIn-left">
@@ -62,7 +62,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="https://xainhotel.vercel.app/" >
+                            <a href="https://xainhotel.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/7Z9n1kS3/Hotel.png" />
                             <div className="content-details fadeIn-bottom">
@@ -75,7 +75,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="https://adminhotel.vercel.app/" >
+                            <a href="https://adminhotel.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/664ckFNK/Dashboard.png" />
                             <div className="content-details fadeIn-bottom fadeIn-right">

@@ -63,7 +63,7 @@ html {
   align-items: center;
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1204374053/photo/profile-side-view-portrait-of-his-he-nice-attractive-skilled-focused-serious-guy-writing.jpg?s=612x612&w=0&k=20&c=ohF7qYstx9E6eJXpcQUtxFJCx9jjRBHilXcFehoOGyU=');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://www.springboard.com/blog/wp-content/uploads/2022/11/best-software-development-certifications-featured-image-800x534.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -103,6 +103,15 @@ html {
     margin-top: 0;
     margin-bottom: 0.5em;
     margin-left: 30px;
+  }
+  .skill {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
@@ -194,4 +203,9 @@ html {
 
 .fadeIn-right{
   left: 80%;
+}
+
+
+td,th {
+  padding : 12px;
 }

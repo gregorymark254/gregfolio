@@ -60,7 +60,7 @@ const Projects = () => {
                         </div>
                         <h3 className="title">Personal Portfolio</h3>
                     </div>
-                    <div className="contain">
+                    {/* <div className="contain">
                         <div className="content">
                             <a href="https://xainhotel.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
@@ -72,8 +72,8 @@ const Projects = () => {
                             </a>
                         </div>
                         <h3 className="title">Hotel Website</h3>
-                    </div>
-                    <div className="contain">
+                    </div> */}
+                    {/* <div className="contain">
                         <div className="content">
                             <a href="https://adminhotel.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
@@ -85,6 +85,19 @@ const Projects = () => {
                             </a>
                         </div>
                         <h3 className="title">Admin Dashboards</h3>
+                    </div> */}
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://carways.vercel.app/" target="_blank" rel="noreferrer">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src="https://i.postimg.cc/T13681js/Screenshot-from-2023-03-28-21-00-22.png" />
+                            <div className="content-details fadeIn-bottom fadeIn-right">
+                                <h3 className="content-title">Car Ways</h3>
+                                <p className="content-text">Car rental system</p>
+                            </div>
+                            </a>
+                        </div>
+                        <h3 className="title">Car Rental</h3>
                     </div>
                 </section>
             </div>

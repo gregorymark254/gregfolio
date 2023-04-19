@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="container mx-auto p-4">
             <h1 className="text-center py-4"><b>Contact <span className="bg-[#F55353] text-white py-1 px-3 rounded-md ">Me</span></b></h1>
             <br />
-            <div className="md:grid grid-cols-5 gap-4 font-bold">
+            <div className="grid grid-cols-1 gap-4 font-bold md:grid-cols-3 lg:grid-cols-5">
                 <a href="mailto:gregorymark254@gmail.com" className="flex justify-center m-4 items-center space-x-2 border rounded-md border-red-600 py-4 text-red-600 hover:bg-red-600 hover:text-white">
                     <span><MdEmail/></span>
                     <p><b>Email</b></p>

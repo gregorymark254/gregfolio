@@ -2,19 +2,19 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <main className="min-h-screen bg-[#EEEEEE]" id="services"> 
+    <main className="bg-[#EEEEEE]" id="services"> 
       <div className="container mx-auto p-4">
         <h1 className="text-center py-4">Other <span className="bg-[#F55353] text-white py-2 px-3 rounded-md "><b>Services</b></span></h1>
         <br />
 
-        <div className="md:flex">
-          <div className="w-full p-4">
-            <img src="https://media.istockphoto.com/id/584570730/vector/electronics-repair-vector.jpg?s=612x612&w=0&k=20&c=uoly-z-SJ_nVVNm-w-m6tkmutAf8nUdK6iZ2uMi2suA=" alt="" />
+        <div className="flex flex-wrap justify-start md:justify-center">
+          <div className="p-4">
+            <img width={600} height={600} src="https://media.istockphoto.com/id/584570730/vector/electronics-repair-vector.jpg?s=612x612&w=0&k=20&c=uoly-z-SJ_nVVNm-w-m6tkmutAf8nUdK6iZ2uMi2suA=" alt="" />
           </div>
-          <div className="w-full p-4 space-y-5">
+          <div className="p-4 space-y-5">
             <h2><u>Computer Repair</u></h2>
-            <p>I avail professional services to the small organizations and individuals at reasonable rates around the clock to run their systems as before. 
-              Believe In Excellence & Innovation My Laptop Repair Services – Apart from offering specific solutions for the peculiar laptop issues, I deliver general service too for our clients no matter what the deal is?
+            <p>I avail professional services to the small organizations and individuals at  reasonable rates around the clock to run their<br /> systems as before. 
+              Believe In Excellence & Innovation My Laptop Repair Services – Apart from offering<br />specific solutions for the peculiar laptop issues, I deliver general service too for our clients no matter what the deal is?
             </p>
             <div>
               <h3><u>Services Offered</u></h3>

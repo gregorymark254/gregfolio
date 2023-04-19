@@ -19,7 +19,36 @@ const Projects = () => {
                             </div>
                             </a>
                         </div>
+                        <br />
                         <h3 className="title">Photography Website</h3>
+                    </div>
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://techit.vercel.app/" target="_blank" rel="noreferrer">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src="https://i.postimg.cc/Dy9fmsW-x/techit.png" />
+                            <div className="content-details fadeIn-top">
+                                <h3 className="content-title">Techit</h3>
+                                <p className="content-text">An IT Company</p>
+                            </div>
+                            </a>
+                        </div>
+                        <br />
+                        <h3 className="title">IT Company Website</h3>
+                    </div>
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://carloz.vercel.app/" target="_blank" rel="noreferrer">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src="https://i.postimg.cc/cJFz1zhm/portfolio.png" />
+                            <div className="content-details fadeIn-bottom fadeIn-left">
+                                <h3 className="content-title">JOHN CARLOZ</h3>
+                                <p className="content-text">A Portfolio website</p>
+                            </div>
+                            </a>
+                        </div>
+                        <br />
+                        <h3 className="title">Personal Portfolio</h3>
                     </div>
                     <div className="contain">
                         <div className="content">
@@ -32,6 +61,7 @@ const Projects = () => {
                             </div>
                             </a>
                         </div>
+                        <br />
                         <h3 className="title">Organisation Website</h3>
                     </div>
                     <div className="contain">
@@ -45,20 +75,8 @@ const Projects = () => {
                             </div>
                             </a>
                         </div>
+                        <br />
                         <h3 className="title">Community website</h3>
-                    </div>
-                    <div className="contain">
-                        <div className="content">
-                            <a href="https://carloz.vercel.app/" target="_blank" rel="noreferrer">
-                            <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src="https://i.postimg.cc/cJFz1zhm/portfolio.png" />
-                            <div className="content-details fadeIn-bottom fadeIn-left">
-                                <h3 className="content-title">JOHN CARLOZ</h3>
-                                <p className="content-text">A Portfolio website</p>
-                            </div>
-                            </a>
-                        </div>
-                        <h3 className="title">Personal Portfolio</h3>
                     </div>
                     {/* <div className="contain">
                         <div className="content">
@@ -97,6 +115,7 @@ const Projects = () => {
                             </div>
                             </a>
                         </div>
+                        <br />
                         <h3 className="title">Car Rental</h3>
                     </div>
                 </section>

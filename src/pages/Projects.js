@@ -26,7 +26,7 @@ const Projects = () => {
                         <div className="content">
                             <a href="https://techit.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="" src="https://i.postimg.cc/Dy9fmsW-x/techit.png" />
+                            <img className="content-image" alt="" src="https://i.postimg.cc/FHVtNfpz/techit.png" />
                             <div className="content-details fadeIn-top">
                                 <h3 className="content-title">Techit</h3>
                                 <p className="content-text">An IT Company</p>
@@ -35,6 +35,20 @@ const Projects = () => {
                         </div>
                         <br />
                         <h3 className="title">IT Company Website</h3>
+                    </div>
+                    <div className="contain">
+                        <div className="content">
+                            <a href="https://yavin.vercel.app/" target="_blank" rel="noreferrer">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="" src="https://i.postimg.cc/L8pdckzG/Yavin.png" />
+                            <div className="content-details fadeIn-top">
+                                <h3 className="content-title">Yavin</h3>
+                                <p className="content-text">A landing page</p>
+                            </div>
+                            </a>
+                        </div>
+                        <br />
+                        <h3 className="title">A Landing Page</h3>
                     </div>
                     <div className="contain">
                         <div className="content">

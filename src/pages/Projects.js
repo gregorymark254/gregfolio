@@ -52,7 +52,7 @@ const Projects = () => {
                     </div>
                     <div className="contain">
                         <div className="content">
-                            <a href="https://yavin.vercel.app/" target="_blank" rel="noreferrer">
+                            <a href="https://senaa.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/SxTsTM9R/sena.png" />
                             <div className="content-details fadeIn-top">

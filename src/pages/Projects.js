@@ -132,7 +132,7 @@ const Projects = () => {
                         </div>
                         <h3 className="title">Admin Dashboards</h3>
                     </div> */}
-                    <div className="contain">
+                    {/* <div className="contain">
                         <div className="content">
                             <a href="https://carways.vercel.app/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
@@ -145,7 +145,7 @@ const Projects = () => {
                         </div>
                         <br />
                         <h3 className="title">Car Rental</h3>
-                    </div>
+                    </div> */}
                 </section>
             </div>
         </div>

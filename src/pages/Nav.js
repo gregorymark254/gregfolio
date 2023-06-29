@@ -26,9 +26,6 @@ const Nav = () => {
                 <a href="#projects" className="hover:text-white px-3 py-2 ">Projects</a>
               </li>
               <li>
-                <a href="#skills" className="hover:text-white px-3 py-2">Skills</a>
-              </li>
-              <li>
                 <a href="#services" className="hover:text-white px-3 py-2">Services</a>
               </li>
               <li>

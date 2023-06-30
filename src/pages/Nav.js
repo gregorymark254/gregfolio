@@ -20,7 +20,7 @@ const Nav = () => {
                 <a href="#home" className="hover:text-white px-3 py-2 ">Home</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-white px-3 py-2 ">About</a>
+                <a href="#about" className="hover:text-white px-3 py-2 ">Abouts</a>
               </li>
               <li>
                 <a href="#projects" className="hover:text-white px-3 py-2 ">Projects</a>

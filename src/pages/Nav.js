@@ -32,7 +32,7 @@ const Nav = () => {
                 <a href="#services" className="hover:text-white px-3 py-2">Services</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-white px-3 py-2">Contact</a>
+                <a href="#contact" className="hover:text-white px-3 py-2">Contacts</a>
               </li>
             </ul>
             

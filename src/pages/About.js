@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="p-6">
-                    <img width={600} height={600} src="https://markgregory.netlify.app/static/media/img.42f46daf7ecd918e0b32.jpg" alt="" />
+                    <img width={600} height={600} src="https://i.postimg.cc/5ymMYsPQ/greg.jpg" alt="" />
                 </div>
             </div>
         </div>

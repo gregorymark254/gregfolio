@@ -8,7 +8,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-inner">
           <h1><b>HI, I'M GREGORY MARK.</b></h1>
-          <h1>A Full-stack Developer</h1>
+          <h1>A Full stack Developer</h1>
           <br />
           <a href="#projects" className="hover:bg-[#E45826] bg-[#F55353] rounded-md px-8 py-4">My Works</a>
           <div className="flex justify-center items-center mt-10 animate-bounce">
@@ -22,3 +22,5 @@ const Home = () => {
 
 
 export default Home
+
+// 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

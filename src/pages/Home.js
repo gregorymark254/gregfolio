@@ -22,5 +22,3 @@ const Home = () => {
 
 
 export default Home
-
-// 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

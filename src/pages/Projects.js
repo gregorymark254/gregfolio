@@ -10,7 +10,7 @@ const Projects = () => {
                 <section className="grid grid-cols-1 gap-4 py-6 justify-center md:grid-cols-3">
                     <div className="contain">
                         <div className="content">
-                            <a href="https://royallens.vercel.app" target="_blank" rel="noreferrer">
+                            <a href="https://royallenske.com/" target="_blank" rel="noreferrer">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="" src="https://i.postimg.cc/wMMgTJDt/royal.png" />
                             <div className="content-details fadeIn-left">

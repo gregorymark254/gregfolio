@@ -4,6 +4,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Services from './pages/Services'
+import Archievements from './pages/Archievements'
 import Skills from './pages/Skills'
 import Footer from './pages/Footer'
 
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Projects/>
       <Skills/>
+      <Archievements/>
       <Services/>
       <Contact/>
       <Footer/>

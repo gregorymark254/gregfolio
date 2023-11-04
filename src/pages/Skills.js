@@ -44,6 +44,9 @@ const Skills = () => {
                     <div className="bg-[#F55353] text-white py-2 px-3">
                         <span>Python</span>
                     </div>
+                    <div className="bg-[#F55353] text-white py-2 px-3">
+                        <span>dJANGO</span>
+                    </div>
                 </div>
             </section>
         </div>

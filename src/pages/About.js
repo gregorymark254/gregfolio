@@ -25,7 +25,7 @@ const About = () => {
                     <br />
                     
                     <div className="space-x-5">
-                        <a href="https://docs.google.com/document/d/1UJ21S5fz1GDDGYkI7c7dULtOoEeDGAWNIX19eurnxy8/edit?usp=sharing" target="_blank" rel="noreferrer" className="bg-[#F55353] hover:bg-[#f73333] text-white py-2 px-5 rounded-md">View My CV</a>
+                        <a href="https://www.linkedin.com/in/devgregory/" target="_blank" rel="noreferrer" className="bg-[#F55353] hover:bg-[#f73333] text-white py-2 px-5 rounded-md">View My CV</a>
                         <a href="https://github.com/gregorymark254" target="_blank" rel="noreferrer" className="border-2 border-[#F55353] text-[#F55353] hover:bg-[#F55353] hover:text-white rounded-md py-2 px-5"><b>Git Hub</b></a>
                     </div>
                 </div>

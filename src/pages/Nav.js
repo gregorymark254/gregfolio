@@ -13,7 +13,7 @@ const Nav = () => {
           <nav className='flex justify-between items-center  px-4'>
             {/* Top Nav */}
             <div className="flex items-center ">
-              <h2>GM.</h2>
+              <h3>GM.</h3>
             </div>
             <ul className='hidden md:flex'>
               <li>

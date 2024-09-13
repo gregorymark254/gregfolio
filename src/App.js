@@ -1,9 +1,8 @@
 import Nav from './pages/Nav'
 import Home from './pages/Home'
-import About from './pages/About'
+import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
-import Services from './pages/Services'
 import Skills from './pages/Skills'
 import Footer from './pages/Footer'
 
@@ -14,10 +13,9 @@ function App() {
     <div>
       <Nav/>
       <Home/>
-      <About/>
-      <Projects/>
-      <Skills/>
       <Services/>
+      <Projects/>
+      <Skills/> 
       <Contact/>
       <Footer/>
       <ScrolltoTop/>

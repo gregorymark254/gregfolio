@@ -20,16 +20,16 @@ const Nav = () => {
                 <a href="#home" className="hover:text-white px-3 py-2 ">Home</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-white px-3 py-2 ">Abouts</a>
+                <a href="#services" className="hover:text-white px-3 py-2 ">Services</a>
               </li>
               <li>
                 <a href="#projects" className="hover:text-white px-3 py-2 ">Projects</a>
               </li>
               <li>
-                <a href="#services" className="hover:text-white px-3 py-2">Services</a>
+                <a href="#skills" className="hover:text-white px-3 py-2">Skills</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-white px-3 py-2">Contacts</a>
+                <a href="#contact" className="hover:text-white px-3 py-2">Contact</a>
               </li>
             </ul>
             

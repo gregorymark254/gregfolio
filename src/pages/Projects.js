@@ -2,8 +2,10 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      Projects
+    <div id='projects'>
+      <main className="container mx-auto p-4">
+        projects
+      </main>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import resume from './greg_cv.pdf'
 const Home = () => {
   
   return (
-    <main className="container mx-auto p-4 h-screen">
+    <main className="container mx-auto p-4 flex items-center">
       <section className="flex flex-wrap items-center justify-center">
         <div className='w-full xl:w-1/2 p-4'>
           <div className='my-2 space-y-4'>
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
         <div className='w-full xl:w-1/2 p-4'>
           <div className='flex items-center justify-center'>
-            <img className='rounded-full' width={500} height={500} src="https://i.postimg.cc/5ymMYsPQ/greg.jpg" alt="" />
+            <img className='rounded-full' width={600} height={500} src="https://i.postimg.cc/5ymMYsPQ/greg.jpg" alt="" />
           </div>
         </div>
       </section>

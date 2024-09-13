@@ -1,9 +1,10 @@
 import Nav from './pages/Nav'
 import Home from './pages/Home'
 import Services from './pages/Services'
-import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
+import Archievements from './pages/Archievements'
+import Contact from './pages/Contact'
 import Footer from './pages/Footer'
 
 import ScrolltoTop from './ScrollToTop'
@@ -16,6 +17,7 @@ function App() {
       <Services/>
       <Projects/>
       <Skills/> 
+      <Archievements/>
       <Contact/>
       <Footer/>
       <ScrolltoTop/>

@@ -8,12 +8,12 @@ const Nav = () => {
 
   return (
     <main className="nav">
-      <div className="bg-[#181818] text-[#F55353]">
+      <div className="bg-[#181818] text-red-600">
         <div className="container mx-auto p-5">
           <nav className='flex justify-between items-center  px-4'>
             {/* Top Nav */}
             <div className="flex items-center ">
-              <h3>GM.</h3>
+              <h3><b>GM.</b></h3>
             </div>
             <ul className='hidden md:flex'>
               <li>
@@ -41,10 +41,10 @@ const Nav = () => {
               </svg>
             )}
             {navIsShown && (
-              <div className='md:hidden absolute z-10 top-0 left-0 w-full bg-gray-100/90 text-black px-4 py-6'>
+              <div className='md:hidden absolute z-10 top-0 left-0 w-full bg-white text-black px-4 py-6'>
                 <div className='flex justify-between border-b-2 border-b-gray-600'>
                   <div className="flex items-center ">
-                    <h3>Gregory</h3>
+                    <h3><b>GM.</b></h3>
                   </div>
                   <svg
                     xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' className='w-6 h-6' onClick={toggleNavIsShown} >

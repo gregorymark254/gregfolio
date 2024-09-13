@@ -8,7 +8,7 @@ const Projects = () => {
           <h3>My Latest Work</h3>
           <h2><b>Explore <span className='text-red-600'>Projects</span></b></h2>
         </div>
-        <section className="grid grid-cols-1 gap-4 py-6 justify-center md:grid-cols-3">
+        <section className="grid grid-cols-1 gap-4 py-6 justify-center md:grid-cols-2 lg:grid-cols-3">
           <div className="contain">
             <div className="content">
               <a href="https://medixsolutions.vercel.app/" target="_blank" rel="noreferrer">

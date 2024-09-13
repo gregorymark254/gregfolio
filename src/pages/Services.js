@@ -3,7 +3,7 @@ import { FaGlobe, FaDesktop, FaServer, FaMoneyCheck, FaDatabase, FaTools } from 
 
 const Services = () => {
   return (
-    <div id='services' className='h-screen flex items-center'>
+    <div id='services'>
       <div className="container mx-auto p-4">
         <div className='text-center my-10 space-y-4'>
           <h3>I like to make things easy for you</h3>
